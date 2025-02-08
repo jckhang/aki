@@ -29,9 +29,22 @@
 		726F43B82D57229C00C15CD3 /* AkiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AkiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		726F43D62D5725C400C15CD3 /* Exceptions for "Aki" folder in "Aki" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 726F439B2D57229A00C15CD3 /* Aki */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		726F439E2D57229A00C15CD3 /* Aki */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				726F43D62D5725C400C15CD3 /* Exceptions for "Aki" folder in "Aki" target */,
+			);
 			path = Aki;
 			sourceTree = "<group>";
 		};
